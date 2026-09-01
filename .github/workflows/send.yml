@@ -10,8 +10,8 @@ on:
   #使用github actions的日程 可以把下面的这三行代码注释删掉  用外部的不用管 
   schedule:
     # 北京时间 11:10 对应 UTC 时间 03:10
-    - cron: "15 3 * * *"
-     #  timezone: "Asia/Shanghai"
+    - cron: "16 11 * * *"
+      timezone: "Asia/Shanghai"
 
 concurrency:
   group: douyin-daily-sender
